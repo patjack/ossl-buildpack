@@ -8,7 +8,7 @@ This builds a Heroku instance with the default Heroku buildpack linked to OpenSS
 
     $ cat .buildpacks
     https://github.com/heroku/heroku-buildpack-python.git
-    https://github.com/gtank/ossl-buildpack.git
+    https://github.com/patjack/ossl-buildpack.git
 
 
 The binaries referenced in bin/compile were produced with Heroku anvil from the
