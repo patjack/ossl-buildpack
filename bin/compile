@@ -11,5 +11,3 @@ BP_DIR=`cd $(dirname $0); cd ..; pwd`
 echo "-----> Copying .profile.d scripts from $BP_DIR"
 mkdir -p $1/.profile.d/
 cp ${BP_DIR}/.profile.d/* $1/.profile.d/
-
-export PATH=/app/vendor/openssl/bin:$PATH
