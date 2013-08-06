@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Python with OpenSSL 1.0.1e"
+echo "OpenSSL 1.0.1e"
 exit 0
