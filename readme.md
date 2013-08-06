@@ -7,7 +7,7 @@ This builds a Heroku instance with the default Heroku buildpack linked to OpenSS
     $ heroku config:set BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi
 
     $ cat .buildpacks
-    https://github.com/heroku/heroku-buildpack-python
+    https://github.com/heroku/heroku-buildpack-python.git
     https://github.com/gtank/ossl-buildpack.git
 
 
